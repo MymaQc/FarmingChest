@@ -1,0 +1,25 @@
+#
+#     ▄████████    ▄████████    ▄████████   ▄▄▄▄███▄▄▄▄    ▄█  ███▄▄▄▄      ▄██████▄        ▄████████    ▄█    █▄       ▄████████    ▄████████     ███
+#    ███    ███   ███    ███   ███    ███ ▄██▀▀▀███▀▀▀██▄ ███  ███▀▀▀██▄   ███    ███      ███    ███   ███    ███     ███    ███   ███    ███ ▀█████████▄
+#    ███    █▀    ███    ███   ███    ███ ███   ███   ███ ███▌ ███   ███   ███    █▀       ███    █▀    ███    ███     ███    █▀    ███    █▀     ▀███▀▀██
+#   ▄███▄▄▄       ███    ███  ▄███▄▄▄▄██▀ ███   ███   ███ ███▌ ███   ███  ▄███             ███         ▄███▄▄▄▄███▄▄  ▄███▄▄▄       ███            ███   ▀
+#  ▀▀███▀▀▀     ▀███████████ ▀▀███▀▀▀▀▀   ███   ███   ███ ███▌ ███   ███ ▀▀███ ████▄       ███        ▀▀███▀▀▀▀███▀  ▀▀███▀▀▀     ▀███████████     ███
+#    ███          ███    ███ ▀███████████ ███   ███   ███ ███  ███   ███   ███    ███      ███    █▄    ███    ███     ███    █▄           ███     ███
+#    ███          ███    ███   ███    ███ ███   ███   ███ ███  ███   ███   ███    ███      ███    ███   ███    ███     ███    ███    ▄█    ███     ███
+#    ███          ███    █▀    ███    ███  ▀█   ███   █▀  █▀    ▀█   █▀    ████████▀       ████████▀    ███    █▀      ██████████  ▄████████▀     ▄████▀
+#                              ███    ███
+
+farming-chest:
+
+  # Liste des messages du plugin
+  message:
+    # Message quand le plugin s'active
+    enable-plugin: FarmingChest a été activé avec succès !
+    # Message quand le plugin se désactive
+    disable-plugin: FarmingChest a été désactivé avec succès !
+    # Haut de page du message affichant la liste des items récupérés grâce au farming chest
+    farming-chest-use-header: §l§6» §r§eListe des items récupérés grâce au Farming Chest §l§6«§r
+    # Format d'affichage du message affichant la liste des items récupérés grâce au farming chest
+    farming-chest-use-format: §l§6| §r§e{item} §8- §f{count}§r
+    # Message quand un joueur ouvre le farming chest mais qu'aucun item n'a été récupéré
+    no-crops-found: §cAucune plantation n'a été récupérée grâce à votre farming chest.
