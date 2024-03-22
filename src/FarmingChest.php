@@ -75,7 +75,6 @@ final class FarmingChest extends PluginBase {
                     }
                 }
             }
-
         }, EventPriority::NORMAL, $this);
 
         $this->getLogger()->notice($config->getNested("farming-chest.message.enable-plugin"));
